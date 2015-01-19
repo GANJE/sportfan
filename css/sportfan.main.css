@@ -1,0 +1,82 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a {
+    background: none repeat scroll 0 0 transparent;
+    color: #000;
+    text-decoration: none;
+}
+a:active {
+    outline: 0 none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.fixed {
+    position: fixed
+}
+.head {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 57px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(48, 48, 48,0.14);
+    overflow: hidden;
+}
+.head .head_content {
+    width: 74%;
+    max-width: 1000px;
+    height: 57px;
+    margin: 0 auto;
+}
+.head .login_box,
+.head .login_box a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 105%;
+}
+.head .login_box {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.head .login_box span {
+    margin-right: 10px;
+}
+.head .logo {
+    width: 113px;
+    height: 46px;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.bottom {
+    width: 100%;
+    bottom: 10px;
+}
+.bottom .bottom_content {
+    width: 74%;
+    max-width: 1045px;
+    margin: 0 auto;
+}
+.bottom a,
+.bottom span {
+    float: left;
+    margin-right: 5px;
+    color: #000000;
+    font-size: 10px;
+    opacity: .4;
+}
+.bottom p {
+    font-size: 12px;
+    opacity: .4;
+}
