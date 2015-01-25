@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>sportfan欢迎你</title>
 <link rel="stylesheet" href="css/jquery.fullPage.css">
-<link rel="stylesheet" href="css/sportfan.main.css">
+<link rel="stylesheet" href="css/sportfan.home.css">
 <style>
 .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
 </style>
@@ -15,7 +15,7 @@
 $(document).ready(function() {
 	$.fn.fullpage({
 		slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-		anchors: ['page1', 'page2', 'page3', 'page4'],
+		//anchors: ['page1', 'page2', 'page3', 'page4'],
 		navigation: true
 	});
 });
@@ -23,51 +23,41 @@ $(document).ready(function() {
 </head>
 
 <body style="overflow: hidden; height: 100%;">
-<div class="section">
-	<h3>第一屏</h3>
-	<p>我们要加油</p>
+<div class="section" id="ms-page1">
+	<p>欢迎来到sportfan！</p>
 </div>
-<div class="section">
-	<h3>第二屏</h3>
-	<p>世界500强</p>
-</div>
-<div class="section">
-	<h3>第三屏</h3>
-	<p>想想就好了</p>
-</div>
-<div class="section">
-	<h3>第四屏</h3>
-	<p>想想也好，万一实现了呢</p>
-</div>
-<div class="fixed head">
-	<div class="head_content">
-		<div class="logo fl">
-		</div>
-		<div class="fr login_box">
-			<a href="#" class="">App下载</a>
-			<span class="">|</span>
-			<a href="#" class="">浏览内容</a>
-		</div>
+<div class="section" id="ms-page2">
+	<div class="iphone" style="opacity: 1; margin-top: -305px; transition: 400ms; -webkit-transition: 400ms;">
+		<div class="sport-phone"></div>
 	</div>
 </div>
-<div class="fixed bottom">
-	<div class="bottom_content">
-		<a href="#">关于我们</a>
-		<span>|</span>
-		<a href="#">商务合作</a>
-		<span>|</span>
-		<a href="#">在线商城</a>
-		<span>|</span>
-		<a href="#">sportfan开放平台</a>
-		<label class="bottom_tips">
-			<span>|</span>
-			<a href="#">使用条款</a>
-			<span>|</span>
-			<a href="#">常见问题</a>
-		</label>
-		<br />
-		<p>Copyright &copy; 2015-2025</p>
+<div class="section" id="ms-page3">
+	<div class="iphone" style="opacity: 1; margin-top: -305px; transition: 400ms; -webkit-transition: 400ms;">
+		<div class="sport-phone"></div>
 	</div>
+</div>
+<div class="section" id="ms-page4">
+	<div class="iphone" style="opacity: 1; margin-top: -305px; transition: 400ms; -webkit-transition: 400ms;">
+		<div class="sport-phone"></div>
+	</div>
+</div>
+<div class="fixed header">
+	<div class="sportfan_logo"></div>
+	<div class="login_box">
+		<ul>
+			<li><a href="#">登录</a></li>
+			<li><a href="#">注册</a></a></li>
+		</ul>
+	</div>
+</div>
+<div class="fixed footer">
+	<a href="#">关于我们</a>
+	<a href="#">商务合作</a>
+	<a href="#">运动购</a>
+	<a href="#">使用条款</a>
+	<a href="#">常见问题</a>
+	<br>
+	<p>Copyright © 2015-2555</p>
 </div>
 </body>
 </html>
