@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="css/sportfan.home.css">
 <style>
 .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+
+/**
+*navigator
+*/
+#fullPage-nav span, .fullPage-slidesNav span { border: 2px solid #FFFFFF;}
+#fullPage-nav li .active span, .fullPage-slidesNav.active span { background-color: #FFFFFF;}
 </style>
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery-ui-1.10.3.min.js"></script>
@@ -14,9 +20,14 @@
 <script>
 $(document).ready(function() {
 	$.fn.fullpage({
-		slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+		//slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
 		//anchors: ['page1', 'page2', 'page3', 'page4'],
-		navigation: true
+		//scrollingSpeed: 600,
+		//navigationPosition: left,
+		//slidesNavigation: true,
+		//navigationColor: green,
+		navigation: true,
+		navigationTooltips: ['1', '2', '3', '4']
 	});
 });
 </script>
